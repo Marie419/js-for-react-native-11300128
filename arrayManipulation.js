@@ -1,19 +1,20 @@
 // Task 1
 function processArray(numbers) {
-  var processArray = [];
+  var processedArray = [];
   for (var i = 0; i < numbers.length; i++) {
     var number = numbers[i];
 
     if (number % 2 === 0) {
-      processArray.push(number ** 2);
+      processedArray.push(number ** 2);
     } else {
-      processArray.push(number * 3);
+      processedArray.push(number * 3);
     }
   }
-  return processArray;
+  return processedArray;
 }
-let numbers = [31, 14, 11, 23, 20];
-let output = processArray(numbers);
+
+const numbers = [31, 14, 11, 23, 20];
+var output = processArray(numbers);
 console.log(output);
 
 // Task 2
