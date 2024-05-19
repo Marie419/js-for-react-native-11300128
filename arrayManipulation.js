@@ -41,3 +41,5 @@ const num = [31, 14, 11, 23, 20];
 const processedNumbers = processArray(num);
 const formatted = formatArrayStrings(strings, processedNumbers);
 console.log(formatted);
+
+
