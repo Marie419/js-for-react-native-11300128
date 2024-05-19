@@ -1,3 +1,4 @@
+// Task 1
 function processArray(numbers) {
   var processArray = [];
   for (var i = 0; i < numbers.length; i++) {
